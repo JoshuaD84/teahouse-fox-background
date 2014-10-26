@@ -1,0 +1,7 @@
+#add these lines to your cron job list 
+#by using the command "crontab -e"
+#you may have to modify the path to the script below
+
+0 * * * * /opt/background-fox/background-fox.sh
+14 3 * * * /opt/background-fox/background-fox.sh 
+16 3 * * * /opt/background-fox/background-fox.sh
