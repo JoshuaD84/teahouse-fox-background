@@ -13,7 +13,7 @@ installation
    	- note: use crontab -e to edit your cron schedule
 	- note: modify the location of the script to where you put it
 
-3.	Copy background-fox.desktop to ~/.config/autostart/
+3.	Copy background-fox.desktop to ~/.config/autostart/. If this directory does not exist, create it.
 
 4.	Edit ~/.config/autostart/background-fox.desktop to match script location
 	- note: the only line that needs to be changed is line 5; set that to wherever you put the script.
