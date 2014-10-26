@@ -4,7 +4,7 @@ background-fox
 A simple automated background switcher for gnome, to display the teahouse fox's adventures throughout the day
 
 installation
-=============
+------------
 
 1.	Download this script to any suitable location (perhaps ~/bin or /opt)
 	- note: You can use "git clone" or you can manually download each file
@@ -21,6 +21,6 @@ installation
 5.	Logout and log back in, you should see the background updated to the appropriate fox!
 
 test status
-===========
+-----------
 
 1. Ubuntu 14.10 - works
