@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Background-Fox
+GenericName=Background-Fox
+Comment=Update the background fox on login
+Exec=/opt/background-fox/background-fox.sh
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
