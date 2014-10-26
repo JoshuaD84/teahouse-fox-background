@@ -1,5 +1,5 @@
-background-fox
-==============
+teahouse-background-fox
+=======================
 
 A simple automated background switcher for gnome, to display the teahouse fox's adventures throughout the day
 
