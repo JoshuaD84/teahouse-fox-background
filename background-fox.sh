@@ -37,7 +37,7 @@ img_file=$pic_folder$target
 if [[ -f $img_file ]] ; then
 	PID=$(pgrep gnome-session)
 	export DBUS_SESSION_BUS_ADDRESS=$(grep -z DBUS_SESSION_BUS_ADDRESS /proc/$PID/environ|cut -d= -f2-) >>$log 2>&1
-	git clone gsettings set org.gnome.desktop.background picture-options "spanned" >>$log 2>&1
+	gsettings set org.gnome.desktop.background picture-options "spanned" >>$log 2>&1
 	gsettings set org.gnome.desktop.background picture-uri file://$pic_folder$target >>$log 2>&1
 	echo "Background set to image: $img_file" >> $log 2>&1
 else
