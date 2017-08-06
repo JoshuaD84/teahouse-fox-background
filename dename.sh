@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#From here: https://github.com/alexeevdv/dename
+
 function detect_gnome()
 {
     ps -e | grep -E '^.* gnome-session$' > /dev/null
