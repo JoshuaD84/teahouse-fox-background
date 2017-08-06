@@ -23,4 +23,7 @@ installation
 test status
 -----------
 
-1. Ubuntu 14.10 - works
+Ubuntu 14.10 / Gnome 3 - works
+
+Ubuntu 16.10 / Gnome 3 - works
+Ubuntu 16.10 / XFCE 4.12 - works
