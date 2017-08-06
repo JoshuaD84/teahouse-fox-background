@@ -1,7 +1,7 @@
 teahouse-background-fox
 =======================
 
-A simple automated background switcher for gnome, to display the teahouse fox's adventures throughout the day
+A simple automated background switcher for gnome and xfce, to display the teahouse fox's adventures throughout the day
 
 installation
 ------------
